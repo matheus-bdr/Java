@@ -1,0 +1,13 @@
+git init
+git config --global user.name "matheus-bdr"
+git config --global user.email mmatheuscruzs@gmail.com
+git clone "repositório"
+
+code . 
+
+git status
+git add .
+git commit -m "update"
+git branch -M main
+git remote add origin <https://github.com/matheus-bdr/Java.git>
+git push -u origin main
