@@ -1,0 +1,36 @@
+Para a maior segurança do seu programa é relevante que seja guardado de forma encapsulada, não publica.
+
+                                        QUEM PODE TER ACESSO?
+public = 
+a partir da mesma classe
+qualquer classe no mesmo pacote
+qualquer classe filha no mesmo pacote
+qualquer classe filha no pacote diferente
+qualquer classe em pacote diferente 
+
+protected = 
+a partir da mesma classe
+qualquer classe no mesmo pacote
+qualquer classe filha no mesmo pacote
+qualquer classe filha no pacote diferente
+
+default = 
+a partir da mesma classe
+qualquer classe no mesmo pacote
+qualquer classe filha no mesmo pacote
+
+private = 
+a partir da mesma classe
+-------------------------------------------------------------------------------------------------------------------
+
+Para a maioria dos casos serão usados os atributos privates, pois a classse mae tem controle do que será retornado 
+no atributo (variavel).
+
+ex: 
+    public String getNome(){
+        return this.nome;
+    }
+
+você pode retornar o que o usuário vai fazer com esses nome. 
+
+é importante no banco de dados.

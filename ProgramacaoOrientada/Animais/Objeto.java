@@ -1,15 +1,16 @@
 public class Objeto {
     public static void main(String[] args) {
         
-        ClasseCachorro cachorro1 = new ClasseCachorro();
+        ClasseCachorro cachorrinho = new ClasseCachorro("dog", "amarelo", 0, 0, "nada");
+        ClasseGatos gatinho = new ClasseGatos("bedaine", "amarelo", 0, 0);
+        ClassePassaro passarinho = new ClassePassaro("bedas", "amarelo", 0, 0, null);
+        
+        cachorrinho.soar();
+        gatinho.soar();
+        passarinho.soar();
+     
+        
 
-        cachorro1.nome = "gabs";
-        cachorro1.tamanhoDoRabo = 1;
-        cachorro1.cor = "marrom";
-        cachorro1.altura = 3;
-        cachorro1.peso = 2.2;
-
-    System.out.println(cachorro1);
     }
     
 }
