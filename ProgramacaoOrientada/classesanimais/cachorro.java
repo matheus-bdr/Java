@@ -1,12 +1,13 @@
-//classe
-public class ClasseCachorro extends ClasseAnimal{
+package classesanimais;
+
+public class cachorro extends animais{
     //atributos    
    
     private int tamanhoDoRabo;
 
     static int numeroDeCachorros;
    
-    public ClasseCachorro() {
+    public cachorro() {
     }
 
     public static int getNumeroDeCachorros() {
@@ -14,7 +15,7 @@ public class ClasseCachorro extends ClasseAnimal{
     }
 
     public static void setNumeroDeCachorros(int numeroDeCachorros) {
-        ClasseCachorro.numeroDeCachorros = numeroDeCachorros;
+        cachorro.numeroDeCachorros = numeroDeCachorros;
     }
 //----------------------------------------- fim dos getters e setters ---------------------------------------
 
@@ -41,7 +42,7 @@ public class ClasseCachorro extends ClasseAnimal{
     public void soar() {
         System.out.println("au au");
     }
-    public ClasseCachorro(String nome,String cor,double peso, int altura, String estadoDeEspirito) {
+    public cachorro(String nome,String cor,double peso, int altura, String estadoDeEspirito) {
         super(nome, cor, altura, peso, estadoDeEspirito);
     }
 }    

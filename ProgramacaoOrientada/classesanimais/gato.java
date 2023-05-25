@@ -1,9 +1,6 @@
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Method;
+package classesanimais;
 
-import javax.management.ConstructorParameters;
-
-public class ClasseGatos extends ClasseAnimal{
+public class gato extends animais{
     static int numeroDeGatos;
     
     @Override
@@ -16,14 +13,14 @@ public class ClasseGatos extends ClasseAnimal{
     }
 
     public static void setNumeroDeGatos(int numeroDeGatos) {
-        ClasseGatos.numeroDeGatos = numeroDeGatos;
+        gato.numeroDeGatos = numeroDeGatos;
     }
     
     @Override
     public void soar() {
         System.out.println("miau");
     }
-    public ClasseGatos(String nome,String cor,double peso, int altura) {
+    public gato(String nome,String cor,double peso, int altura) {
         super(nome, cor, altura, peso, cor);
     }
 }

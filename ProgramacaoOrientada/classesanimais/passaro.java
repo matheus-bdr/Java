@@ -1,10 +1,12 @@
-public class ClassePassaro extends ClasseAnimal{
+package classesanimais;
+
+public class passaro extends animais{
     static int numeroDePassaros;   
   
 
     @Override
     public String toString() {
-        return "ClassePassaro [nome=" + nome + "]";
+        return "passaro [nome=" + nome + "]";
     }
 
     public static int getNumeroDePassaros() {
@@ -12,13 +14,13 @@ public class ClassePassaro extends ClasseAnimal{
     }
 
     public static void setNumeroDePassaros(int numeroDePassaros) {
-        ClassePassaro.numeroDePassaros = numeroDePassaros;
+        passaro.numeroDePassaros = numeroDePassaros;
     }  
     @Override
     public void soar() {
         System.out.println("piupiu");
     }
-    public ClassePassaro(String nome,String cor,double peso, int altura, String estadoDeEspirito){
+    public passaro(String nome,String cor,double peso, int altura, String estadoDeEspirito){
         super(nome, cor, altura, peso, estadoDeEspirito);
     }
 }

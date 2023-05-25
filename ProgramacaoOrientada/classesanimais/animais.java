@@ -1,12 +1,14 @@
-public class ClasseAnimal {
+package classesanimais;
+
+public class animais {
     protected String nome; 
     protected String cor;
     protected int altura;
     protected double peso;
     protected String estadoDeEspirito;  
     
-    public ClasseAnimal(){}
-    public ClasseAnimal(String nome, String cor, int altura, double peso, String estadoDeEspirito) {
+    public animais(){}
+    public animais(String nome, String cor, int altura, double peso, String estadoDeEspirito) {
         this.nome = nome;
         this.cor = cor;
         this.altura = altura;
